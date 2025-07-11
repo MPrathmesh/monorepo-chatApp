@@ -3,7 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./*": "./src/*.tsx"
+    "./*": "./src/*.tsx",
+    "./card": "./src/card.tsx",
+    "./button": "./src/button.tsx",
+    "./code" : "./src/code.tsx",
+    "./text-input": "./src/text-input.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
